@@ -1,0 +1,1 @@
+setup-ds.pl --silent General.FullMachineName='hostname' General.SuiteSpotUserID=nobody General.SuiteSpotGroup=nobody slapd.ServerPort=389 slapd.ServerIdentifier=pki-tomcat slapd.Suffix=dc=example,dc=com slapd.RootDN="cn=Directory Manager" slapd.RootDNPwd=Secret.123

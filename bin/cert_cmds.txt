@@ -1,0 +1,2 @@
+pki -c Secret.123 client-cert-request cn=example.com --profile caServerCert
+pki -d ~/.dogtag/pki-tomcat/ca/alias -c Secret.123 -n caadmin ca-cert-request-review req_id --action approve
